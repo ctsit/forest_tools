@@ -1,6 +1,6 @@
 # Forest Tools
 
-Project to export triples from a Jena MySQL SDB database. This tool can export a 37 million row Quads table in around 10 minutes. The program prints the N-Quads to stdout.
+Project to export triples from a Jena MySQL SDB database. This tool can export a 37 million row Quads table in around 3.5 minutes. The program prints the N-Quads to stdout.
 
 ## Running
 
