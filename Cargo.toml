@@ -1,0 +1,10 @@
+[package]
+name = "forest_tools"
+version = "0.1.0"
+authors = ["Hunter Jarrell <hjarrell555@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+mysql = "*"
+rio_turtle = "0.3.0"
+rio_api = "0.3.0"
