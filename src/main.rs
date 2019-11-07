@@ -105,7 +105,7 @@ fn get_obj<'a>(lex: &'a str, lang: Option<&'a str>, datatype: &'a str, typ: u32)
         1 => Term::BlankNode(BlankNode { id: lex }),
         2 => Term::NamedNode(NamedNode { iri: lex }),
         3 => {
-            if lang.is_some() {
+            if lang.is_some() && !lang.unwrap().trim().is_empty() {
                 Term::Literal(Literal::LanguageTaggedString { language: lang.unwrap(), value: lex })
             } else {
                 Term::Literal(Literal::Simple { value: lex })
