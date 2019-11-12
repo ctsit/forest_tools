@@ -27,7 +27,7 @@ I used [muslrust](https://github.com/clux/muslrust) to cross-compile the program
 
 ## LICENSE
 
-   Copyright 2019 Hunter Jarrell
+   Copyright 2019 UF CTS-IT
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
